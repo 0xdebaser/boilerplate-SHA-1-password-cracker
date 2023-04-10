@@ -2,6 +2,10 @@
 import password_cracker
 from unittest import main
 
+cracked_password0 = password_cracker.crack_sha1_hash(
+    "b305921a3723cd5d70a375cd21a61e60aabb84ec")
+print(cracked_password0)
+
 cracked_password1 = password_cracker.crack_sha1_hash(
     "fbbe7e952d1050bfb09dfdb71d4c2ff2b3d845d2")
 print(cracked_password1)
